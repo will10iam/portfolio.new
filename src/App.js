@@ -12,6 +12,7 @@ import exp from "./Assets/exp.svg"
 import project from "./Assets/project.svg"
 import heart from "./Assets/heart.svg"
 import resume from './Assets/WILLIAM_BERBET4.pdf';
+import Project from "./Components/Project/project";
 
 
 
@@ -185,6 +186,14 @@ function App() {
         </article>
       </section>
 
+      <section className="work">
+        <h1>Meus <span>últimos projetos</span></h1>
+      </section>
+
+      <section>
+        <Project />
+
+      </section>
     </div >
 
   );

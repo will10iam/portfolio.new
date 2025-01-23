@@ -352,6 +352,28 @@
   line-height: 30px;
 }
 
+
+.projects-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 20px;
+  /* Fundo escuro */
+}
+
+.project {
+  background-color: #1c1c1c;
+  /* Fundo dos cards */
+  color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  width: 250px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
 /* Layout responsivo */
 @media (max-width: 768px) {
   .cards-container {

@@ -1,0 +1,82 @@
+[
+    {
+        "title": "LinksUp",
+        "image": "./Assets/links.svg",
+        "description": "Meu site de links!  Tipo o linktree.  Organize seus links em uma página só, editável do jeito que mais gosta.",
+        "technologies": "React | Firebase",
+        "github": "https://github.com/will10iam/app-linkup",
+        "deployed": "https://linksup.netlify.app/",
+        "bgcolor": "#D9D9D9",
+        "id": "1"
+    },
+    {
+        "title": "Painel de Trabalhos",
+        "image": "./Assets/42.svg",
+        "description": "Site ótimo para organizar todos os trabalhos!  Separe-os por status, edite cada um deles. Cadastre clientes e serviços diferentes.",
+        "technologies": "ReactJS | Firebase | Hooks",
+        "github": "https://github.com/will10iam/painel-chamados",
+        "deployed": "https://ticke-60122.web.app/dashboard",
+        "bgcolor": "#E1B208",
+        "id": "1"
+    },
+    {
+        "title": "LinksUp",
+        "image": "./Assets/links.svg",
+        "description": "Meu site de links!  Tipo o linktree.  Organize seus links em uma página só, editável do jeito que mais gosta.",
+        "technologies": "React | Firebase",
+        "github": "https://github.com/will10iam/app-linkup",
+        "deployed": "https://linksup.netlify.app/",
+        "bgcolor": "#1E1E1E",
+        "id": "1"
+    },
+    {
+        "title": "Painel de Trabalhos",
+        "image": "./Assets/42.svg",
+        "description": "Site ótimo para organizar todos os trabalhos!  Separe-os por status, edite cada um deles. Cadastre clientes e serviços diferentes.",
+        "technologies": "ReactJS | Firebase | Hooks",
+        "github": "https://github.com/will10iam/painel-chamados",
+        "deployed": "https://ticke-60122.web.app/dashboard",
+        "bgcolor": "#384949",
+        "id": "1"
+    },
+    {
+        "title": "Painel de Trabalhos",
+        "image": "./Assets/42.svg",
+        "description": "Site ótimo para organizar todos os trabalhos!  Separe-os por status, edite cada um deles. Cadastre clientes e serviços diferentes.",
+        "technologies": "ReactJS | Firebase | Hooks",
+        "github": "https://github.com/will10iam/painel-chamados",
+        "deployed": "https://ticke-60122.web.app/dashboard",
+        "bgcolor": "#1E1E1E",
+        "id": "1"
+    },
+    {
+        "title": "Painel de Trabalhos",
+        "image": "./Assets/42.svg",
+        "description": "Site ótimo para organizar todos os trabalhos!  Separe-os por status, edite cada um deles. Cadastre clientes e serviços diferentes.",
+        "technologies": "ReactJS | Firebase | Hooks",
+        "github": "https://github.com/will10iam/painel-chamados",
+        "deployed": "https://ticke-60122.web.app/dashboard",
+        "bgcolor": "#384949",
+        "id": "1"
+    },
+    {
+        "title": "Painel de Trabalhos",
+        "image": "./Assets/42.svg",
+        "description": "Site ótimo para organizar todos os trabalhos!  Separe-os por status, edite cada um deles. Cadastre clientes e serviços diferentes.",
+        "technologies": "ReactJS | Firebase | Hooks",
+        "github": "https://github.com/will10iam/painel-chamados",
+        "deployed": "https://ticke-60122.web.app/dashboard",
+        "bgcolor": "#E1B208",
+        "id": "1"
+    },
+    {
+        "title": "Painel de Trabalhos",
+        "image": "./Assets/42.svg",
+        "description": "Site ótimo para organizar todos os trabalhos!  Separe-os por status, edite cada um deles. Cadastre clientes e serviços diferentes.",
+        "technologies": "ReactJS | Firebase | Hooks",
+        "github": "https://github.com/will10iam/painel-chamados",
+        "deployed": "https://ticke-60122.web.app/dashboard",
+        "bgcolor": "#D9D9D9",
+        "id": "1"
+    }
+]
