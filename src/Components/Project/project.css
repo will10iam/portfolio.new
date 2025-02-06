@@ -1,5 +1,5 @@
 .projects-section {
-    padding: 0.5rem;
+    padding: 0.9rem 8rem;
 }
 
 .projects-grid {
@@ -11,10 +11,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 99%;
     height: 150px;
     cursor: pointer;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 3px;
+
 }
 
 .project-card:hover {

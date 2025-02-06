@@ -115,7 +115,7 @@ function App() {
       </section >
 
       <section className="about-buttons">
-        <button className="btn-1" onClick={handleDownload} disabled={downloading}>Ver <span>currículo</span></button>
+        <button className="btn-1" onClick={handleDownload} disabled={downloading}>Download <span>CV</span></button>
         <button className="btn-2">Enviar <span>uma mensagem</span></button>
       </section>
 
@@ -172,7 +172,7 @@ function App() {
         <article class="icons-work">
           <header>
             <img src={project} alt="" />
-            <h3>10+</h3>
+            <h3>8+</h3>
           </header>
           <p><span>projetos</span><br></br>concluídos</p>
         </article>
@@ -180,14 +180,17 @@ function App() {
         <article class="icons-work">
           <header>
             <img src={heart} alt="" />
-            <h3>8+</h3>
+            <h3>6+</h3>
           </header>
           <p><span>clientes</span><br></br>feliz</p>
         </article>
       </section>
 
+
       <section className="work">
         <h1>Meus <span>últimos projetos</span></h1>
+        <hr color="#E1B208" className="hr-1"></hr>
+        <hr color="#E1B208" className="hr-2"></hr>
       </section>
 
       <section>

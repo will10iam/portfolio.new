@@ -1,81 +1,61 @@
 [
     {
+        "title": "ETC Idiomas",
+        "image": "/projectImages/etc.png",
+        "description": "Site Institucional para uma escola de idiomas",
+        "technologies": "WordPress | ElementorPro | Canva",
+        "github": "",
+        "deployed": "https://etcidiomas.com.br/",
+        "bgcolor": "#E1B208",
+        "id": "1"
+    },
+    {
         "title": "LinksUp",
-        "image": "./Assets/links.svg",
+        "image": "/projectImages/linkUP.png",
         "description": "Meu site de links!  Tipo o linktree.  Organize seus links em uma página só, editável do jeito que mais gosta.",
         "technologies": "React | Firebase",
         "github": "https://github.com/will10iam/app-linkup",
         "deployed": "https://linksup.netlify.app/",
+        "bgcolor": "#1E1E1E",
+        "id": "1"
+    },
+    {
+        "title": "Painel de Trabalhos",
+        "image": "/projectImages/serviços.png",
+        "description": "Site ótimo para organizar todos os trabalhos!  Separe-os por status, edite cada um deles. Cadastre clientes e serviços diferentes.",
+        "technologies": "ReactJS | Firebase | Hooks",
+        "github": "https://github.com/will10iam/painel-chamados",
+        "deployed": "https://ticke-60122.web.app/dashboard",
+        "bgcolor": "#384949",
+        "id": "1"
+    },
+    {
+        "title": "Site de inscrições para evento",
+        "image": "/projectImages/ipmaanaim.png",
+        "description": "Site com countdown para evento, nesse caso específico um acampamento da IP Maanaim. Na segunda página, um formulário de inscrição que envia os dados para uma banco de dados hospedado no Firebase",
+        "technologies": "ReactJS | Firebase | Hooks",
+        "github": "https://github.com/will10iam/acampa-inscricoes",
+        "deployed": "https://inscricoesacampa.netlify.app/",
         "bgcolor": "#D9D9D9",
         "id": "1"
     },
     {
-        "title": "Painel de Trabalhos",
-        "image": "./Assets/42.svg",
-        "description": "Site ótimo para organizar todos os trabalhos!  Separe-os por status, edite cada um deles. Cadastre clientes e serviços diferentes.",
+        "title": "Dashboard Informações",
+        "image": "/projectImages/ipmaanaim22.png",
+        "description": "Site que traz os dados dos inscritos para um evento. Nesse caso, um acampamento da IP Maanaim. O site faz consultas no banco de dados e retorna na tela, atualizando a cada nova inscrição.",
         "technologies": "ReactJS | Firebase | Hooks",
-        "github": "https://github.com/will10iam/painel-chamados",
-        "deployed": "https://ticke-60122.web.app/dashboard",
-        "bgcolor": "#E1B208",
-        "id": "1"
-    },
-    {
-        "title": "LinksUp",
-        "image": "./Assets/links.svg",
-        "description": "Meu site de links!  Tipo o linktree.  Organize seus links em uma página só, editável do jeito que mais gosta.",
-        "technologies": "React | Firebase",
-        "github": "https://github.com/will10iam/app-linkup",
-        "deployed": "https://linksup.netlify.app/",
-        "bgcolor": "#1E1E1E",
-        "id": "1"
-    },
-    {
-        "title": "Painel de Trabalhos",
-        "image": "./Assets/42.svg",
-        "description": "Site ótimo para organizar todos os trabalhos!  Separe-os por status, edite cada um deles. Cadastre clientes e serviços diferentes.",
-        "technologies": "ReactJS | Firebase | Hooks",
-        "github": "https://github.com/will10iam/painel-chamados",
-        "deployed": "https://ticke-60122.web.app/dashboard",
+        "github": "https://github.com/will10iam/acampa-dashboard",
+        "deployed": "https://dashboard-acampa.netlify.app/",
         "bgcolor": "#384949",
         "id": "1"
     },
     {
-        "title": "Painel de Trabalhos",
-        "image": "./Assets/42.svg",
-        "description": "Site ótimo para organizar todos os trabalhos!  Separe-os por status, edite cada um deles. Cadastre clientes e serviços diferentes.",
-        "technologies": "ReactJS | Firebase | Hooks",
-        "github": "https://github.com/will10iam/painel-chamados",
-        "deployed": "https://ticke-60122.web.app/dashboard",
-        "bgcolor": "#1E1E1E",
-        "id": "1"
-    },
-    {
-        "title": "Painel de Trabalhos",
-        "image": "./Assets/42.svg",
-        "description": "Site ótimo para organizar todos os trabalhos!  Separe-os por status, edite cada um deles. Cadastre clientes e serviços diferentes.",
-        "technologies": "ReactJS | Firebase | Hooks",
-        "github": "https://github.com/will10iam/painel-chamados",
-        "deployed": "https://ticke-60122.web.app/dashboard",
-        "bgcolor": "#384949",
-        "id": "1"
-    },
-    {
-        "title": "Painel de Trabalhos",
-        "image": "./Assets/42.svg",
-        "description": "Site ótimo para organizar todos os trabalhos!  Separe-os por status, edite cada um deles. Cadastre clientes e serviços diferentes.",
-        "technologies": "ReactJS | Firebase | Hooks",
-        "github": "https://github.com/will10iam/painel-chamados",
-        "deployed": "https://ticke-60122.web.app/dashboard",
-        "bgcolor": "#E1B208",
-        "id": "1"
-    },
-    {
-        "title": "Painel de Trabalhos",
-        "image": "./Assets/42.svg",
-        "description": "Site ótimo para organizar todos os trabalhos!  Separe-os por status, edite cada um deles. Cadastre clientes e serviços diferentes.",
-        "technologies": "ReactJS | Firebase | Hooks",
-        "github": "https://github.com/will10iam/painel-chamados",
-        "deployed": "https://ticke-60122.web.app/dashboard",
+        "title": "Emilaine Lopes",
+        "image": "/projectImages/emilaine.png",
+        "description": "AINDA EM DESENVOLVIMENTO!  Site institucional e single-page para um consultorio de psicologia.",
+        "technologies": "HTML&CSS | React.Js",
+        "github": "",
+        "deployed": "",
         "bgcolor": "#D9D9D9",
         "id": "1"
     }

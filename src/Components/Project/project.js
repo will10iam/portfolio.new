@@ -3,6 +3,7 @@ import projects from '../../projectsdb.json';
 import './project.css';
 
 
+
 export default function Project() {
     const [selectedProject, setSelectedProject] = useState(null); // Estado para o projeto selecionado
     const [isModalOpen, setIsModalOpen] = useState(false); // Estado para abrir/fechar modal
@@ -26,7 +27,11 @@ export default function Project() {
                         style={{ backgroundColor: project.bgcolor }}
                         onClick={() => handleOpenModal(project)}
                     >
-                        <img src={project.image} alt={project.title} className="project-image" />
+                        <img
+                            src={project.image}
+                            alt={project.title}
+                            className="project-image"
+                        />
                     </div>
                 ))}
             </div>
