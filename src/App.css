@@ -376,6 +376,43 @@
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+.contato {
+  margin-top: 100px;
+  margin-left: 180px;
+}
+
+.contato h1 {
+  color: var(--text-color);
+  font-weight: bold;
+}
+
+.contato span {
+  font-weight: 100;
+}
+
+.contato p {
+  color: #E1B208;
+  margin-top: 1px;
+  width: 560px;
+  line-height: 30px;
+}
+
+.social {
+  display: flex;
+  justify-content: start;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.social p {
+  width: 320px;
+  color: #fff;
+}
+
+.social__icon:hover {
+  transform: scale(1.05);
+}
+
+
 /* Layout responsivo */
 @media (max-width: 768px) {
   .cards-container {

@@ -13,6 +13,9 @@ import project from "./Assets/project.svg"
 import heart from "./Assets/heart.svg"
 import resume from './Assets/WILLIAM_BERBET4.pdf';
 import Project from "./Components/Project/project";
+import Footer from "./Components/Footer/footer";
+import { FaLinkedin, FaInstagramSquare, FaWhatsappSquare, FaGithubSquare } from "react-icons/fa";
+import { AiFillTikTok } from "react-icons/ai";
 
 
 
@@ -195,7 +198,30 @@ function App() {
 
       <section>
         <Project />
+      </section>
 
+      <section className='contato'>
+        <div>
+          <h1>Me mande <span>uma mensagem</span></h1>
+          <p>bora trabalhar juntos </p><br></br>
+        </div>
+
+        <div className="social">
+          <div>
+            <p>Fale comigo pelas redes sociais, aproveita e já me segue lá </p>
+            <div >
+              <a href="https://www.linkedin.com/in/william-berbet/" target="_blank" rel="noreferrer noopener" ><FaLinkedin color="#E1B208" size={40} className="social__icon" /></a>
+              <a href="https://github.com/will10iam" target="_blank" rel="noreferrer noopener"><FaGithubSquare color="#FFF" size={40} className="social__icon" /></a>
+              <a href="https://www.instagram.com/technobill_/" target="_blank" rel="noreferrer noopener"><FaInstagramSquare color="#E1B208" size={40} className="social__icon" /></a>
+              <a href="https://wa.link/s7j3jg" target="_blank" rel="noreferrer noopener"><FaWhatsappSquare color="#FFF" size={40} className="social__icon" /></a>
+              <a href="https://www.tiktok.com/@technobill" target="_blank" rel="noreferrer noopener"><AiFillTikTok color="#E1B208" size={45} className="social__icon" /></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <Footer />
       </section>
     </div >
 
