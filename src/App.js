@@ -125,7 +125,7 @@ function App() {
 					</button>
 				</section>
 
-				<section className="work">
+				<section className="work" id="services">
 					<h1>
 						O que <span>eu faço?</span>
 					</h1>
@@ -222,7 +222,7 @@ function App() {
 					</article>
 				</section>
 
-				<section className="work">
+				<section className="work" id="projects">
 					<h1>
 						Meus <span>últimos projetos</span>
 					</h1>
@@ -234,7 +234,7 @@ function App() {
 					<Project />
 				</section>
 
-				<section className="contato">
+				<section className="contato" id="contact">
 					<div>
 						<h1>
 							Me mande <span>uma mensagem</span>
