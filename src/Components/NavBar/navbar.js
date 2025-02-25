@@ -7,7 +7,7 @@ export default function Navbar() {
 		<nav className="relative">
 			{/* Botão do Menu Hambúrguer (aparece apenas em telas menores) */}
 			<button
-				className="md:hidden text-white text-2xl"
+				className="md:hidden text-white text-2xl ml-20"
 				onClick={() => setIsOpen(!isOpen)}
 			>
 				☰
@@ -54,7 +54,7 @@ export default function Navbar() {
 			</ul>
 
 			{/* Navbar - Desktop */}
-			<ul className="hidden md:flex space-x-6 text-white">
+			<ul className="hidden md:flex space-x-6 text-white justify-center items-center py-4">
 				<li>
 					<a
 						href="#home"

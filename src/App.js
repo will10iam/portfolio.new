@@ -1,13 +1,9 @@
 import { useState, useEffect } from "react";
 import HomePage from "./Components/HomePage/home";
 import Header from "./Components/Header/header";
+import About from "./Components/About/about";
 import "./App.css";
 import profile from "./Assets/profille.png";
-import user from "./Assets/user.svg";
-import id from "./Assets/id.svg";
-import phone from "./Assets/phone.svg";
-import loc from "./Assets/loc.svg";
-import mail from "./Assets/mail.svg";
 import exp from "./Assets/exp.svg";
 import project from "./Assets/project.svg";
 import heart from "./Assets/heart.svg";
@@ -53,7 +49,11 @@ function App() {
 					<HomePage />
 				</section>
 
-				<section className="about" id="about">
+				<section>
+					<About />
+				</section>
+
+				{/* <section className="about" id="about">
 					<div>
 						<h1>
 							Sobre <span>Mim</span>
@@ -79,39 +79,6 @@ function App() {
 					</div>
 				</section>
 
-				<section class="container">
-					<div class="row">
-						<div class="col col-lg-3" className="name">
-							<p>Nome</p>
-							<span>William Berbet da Silva</span>
-							<img src={user} alt="user-icon" />
-						</div>
-						<div class="col-md-auto text-white" className="age">
-							<p>Idade </p>
-							<span>30 anos </span>
-							<img src={id} alt="id-icon" />
-						</div>
-						<div class="col col-lg-2 text-white" className="phone">
-							<p>Telefone</p>
-							<span>(19)99660-2839</span>
-							<img src={phone} alt="phone-icon" />
-						</div>
-					</div>
-
-					<div class="row">
-						<div class="col text-white" className="local">
-							<p>Localização</p>
-							<span>Limeira, São Paulo - Brasil</span>
-							<img src={loc} alt="loc-icon" />
-						</div>
-						<div class="col-md-auto text-white" className="mail">
-							<p>Email</p>
-							<span>developwill@gmail.com</span>
-							<img src={mail} alt="mail-icon" />
-						</div>
-					</div>
-				</section>
-
 				<section className="about-buttons">
 					<button
 						className="btn-1"
@@ -123,7 +90,7 @@ function App() {
 					<button className="btn-2">
 						Enviar <span>uma mensagem</span>
 					</button>
-				</section>
+				</section> */}
 
 				<section className="work" id="services">
 					<h1>
