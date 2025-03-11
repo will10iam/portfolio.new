@@ -49,7 +49,7 @@ function App() {
 					<HomePage />
 				</section>
 
-				<section>
+				<section id="about">
 					<About />
 				</section>
 

@@ -3,12 +3,16 @@ import Typewriter from "typewriter-effect";
 
 export default function HomePage() {
 	return (
-		<div className="flex flex-col justify-center items-center">
-			<h1 className="text-white sm:text-8xl text-4xl font-extralight pt-20">
-				WILLIAM
-				<span className="text-yellow-500 text-center font-bold">BERBET</span>
-			</h1>
-			<div className="text-white text-2xl font-light pb-14">
+		<div className="h-screen md:h-screen">
+			<div className="flex flex-col md:flex-row justify-center items-center">
+				<h1 className="text-white md:text-8xl text-6xl font-extralight pt-20">
+					WILLIAM
+				</h1>
+				<span className="text-yellow-500 text-center text-7xl md:text-8xl font-bold md:pt-20">
+					BERBET
+				</span>
+			</div>
+			<div className="text-white text-2xl md:text-3xl font-light text-center">
 				<Typewriter
 					onInit={(typewriter) => {
 						typewriter

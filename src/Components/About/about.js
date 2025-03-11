@@ -23,9 +23,9 @@ export default function About() {
 	}
 
 	return (
-		<section className="flex flex-col items-center text-center bg-black text-white px-6 py-12 md:text-left md:px-20">
+		<section className="flex flex-col items-center text-center bg-black text-white px-6 py-12 md:text-left md:px-20 md:py-16">
 			{/* Imagem */}
-			<div className="relative w-48 h-48 md:w-64 md:h-64 md: mr-12 overflow-hidden rounded-full items-center">
+			<div className="relative w-48 h-48 md:w-64 md:h-64 overflow-hidden rounded-full items-center">
 				<img
 					src={perfil}
 					alt="Foto Perfil William Berbet"
@@ -50,9 +50,9 @@ export default function About() {
 					Além disso estou me especializando em desenvolvimento em aplicativos
 					mobile (para celular).
 				</p>
-				<div className="flex flex-col sm:flex-row gap-4 mt-6">
+				<div className="flex flex-col justify-center items-center md:flex-row gap-4 mt-6">
 					<button
-						className="bg-gray-800 text-white px-6 py-2 rounded-lg shadow-md hover:bg-gray-700 transition"
+						className="bg-gray-800 text-white px-12 py-2 text-center rounded-lg shadow-md hover:bg-gray-700 transition"
 						onClick={handleDownload}
 						disabled={downloading}
 					>
