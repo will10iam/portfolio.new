@@ -17,6 +17,7 @@ import {
 	FaGithubSquare,
 } from "react-icons/fa";
 import { AiFillTikTok } from "react-icons/ai";
+import Services from "./Components/MyServices/services";
 
 function App() {
 	const [downloading, setDownloading] = useState(false);
@@ -53,46 +54,11 @@ function App() {
 					<About />
 				</section>
 
-				{/* <section className="about" id="about">
-					<div>
-						<h1>
-							Sobre <span>Mim</span>
-						</h1>
-						<p>
-							Amante de frango frito, música e muai thay!<br></br>
-							Eu crio sites que são responsivos, rápidos e fáceis de usar!
-							<br></br>
-							<br></br>
-							Sites como Landing Pages, Páginas de Vendas e Agradecimento,
-							Blogs, Lojas Virtuais & Portfólios estão entre os meus projeto.
-							<br></br>
-							<br></br>
-							Desenvolvo aplicações para web com HTML, CSS, JS, REACT &
-							TYPESCRIPT.<br></br>
-							<br></br>
-							Além disso estou me especializando em desenvolvimento em
-							aplicativos mobile (para celular).
-						</p>
-					</div>
-					<div className="image-profile">
-						<img src={profile} alt="" />
-					</div>
+				<section id="services">
+					<Services />
 				</section>
 
-				<section className="about-buttons">
-					<button
-						className="btn-1"
-						onClick={handleDownload}
-						disabled={downloading}
-					>
-						Download <span>CV</span>
-					</button>
-					<button className="btn-2">
-						Enviar <span>uma mensagem</span>
-					</button>
-				</section> */}
-
-				<section className="work" id="services">
+				{/* <section className="work" id="services">
 					<h1>
 						O que <span>eu faço?</span>
 					</h1>
@@ -138,7 +104,7 @@ function App() {
 							Você pode ter seu negócio na palma da sua mão com um app mobile!
 						</p>
 					</article>
-				</section>
+				</section> */}
 
 				<section className="porque">
 					<h1>

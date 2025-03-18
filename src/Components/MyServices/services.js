@@ -5,7 +5,7 @@ export default function Services() {
 		<>
 			<section className="flex flex-col items-center text-center px-6 py-12 md:text-right md:px-20 md:py-16">
 				<h1 className="text-white font-bold text-3xl">
-					O que <span className="font-normal text-yellow-500">eu faço?</span>
+					O QUE <span className="font-normal text-yellow-500">EU FAÇO?</span>
 				</h1>
 				<p className="mt-4 text-white">
 					Se você tem um negócio e quer de alguma forma ser encontrado na
@@ -15,16 +15,16 @@ export default function Services() {
 				<hr color="#E1B208"></hr>
 				<hr color="#E1B208"></hr>
 			</section>
-			<div className="flex flex-col justify-center items-center md:flex-row gap-4 mt-6">
-				<div class="max-w-sm rounded overflow-hidden shadow-lg bg-gray-800">
-					{/* <img class="w-full" src="" alt="Sunset in the mountains" /> */}
+			<div className="flex flex-col justify-center items-center md:flex-row gap-4 mt-6 border-red-500">
+				<div class="max-w-xs md:max-w-md rounded overflow-hidden shadow-lg bg-gray-800">
 					<div class="px-6 py-4">
 						<div class="font-bold text-xl mb-2 text-white text-center">
 							Desenvolvimento para Internet
 						</div>
 						<p class="text-white text-center mt-4">
-							Landing Pages, Ecommerces, Sites. Tudo pronto para o seu negócio
-							online!
+							Páginas de Cadastro, Páginas de Agradecimento, Sites com página
+							única, Sites Institucionais completos, Ecommerces. <br></br>Tudo
+							pronto para o seu negócio online!
 						</p>
 					</div>
 					<div class="px-6 pt-2 pb-2 text-center">
@@ -34,8 +34,8 @@ export default function Services() {
 					</div>
 				</div>
 
-				<div class="max-w-sm rounded overflow-hidden shadow-lg bg-gray-800">
-					{/* <img class="w-full" src="" alt="Sunset in the mountains" /> */}
+				{/* <div class="max-w-xs md:max-w-md rounded overflow-hidden shadow-lg bg-gray-800">
+					<img class="w-full" src="" alt="Sunset in the mountains" /> 
 					<div class="px-6 py-4">
 						<div class="font-bold text-xl mb-2 text-white text-center">
 							Desenvolvimento para Celulares
@@ -49,7 +49,7 @@ export default function Services() {
 							Solicitar Orçamento
 						</span>
 					</div>
-				</div>
+				</div> */}
 			</div>
 		</>
 	);

@@ -35,7 +35,7 @@ export default function About() {
 
 			<div className="max-w-lg">
 				<h2 className="text-3xl font-semibold mt-4">
-					QUEM <span className="text-yellow-500">SOU EU?</span>
+					QUEM <span className="text-yellow-500 font-normal">SOU EU?</span>
 				</h2>
 				<p className="mt-4">Amante de frango frito, música e muai thay!</p>
 				<p className="mt-4">
