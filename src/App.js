@@ -18,6 +18,7 @@ import {
 } from "react-icons/fa";
 import { AiFillTikTok } from "react-icons/ai";
 import Services from "./Components/MyServices/services";
+import WorkWithMe from "./Components/WorkWithMe/wwm";
 
 function App() {
 	const [downloading, setDownloading] = useState(false);
@@ -58,55 +59,11 @@ function App() {
 					<Services />
 				</section>
 
-				{/* <section className="work" id="services">
-					<h1>
-						O que <span>eu faço?</span>
-					</h1>
-					<p>
-						Se você tem um negócio e quer de alguma forma ser encontrado na
-						internet, é nisso que eu posso te ajudar. Seja em um site completo
-						ou uma landing page, desde o design até o site pronto.
-					</p>
-					<hr color="#E1B208" className="hr-1"></hr>
-					<hr color="#E1B208" className="hr-2"></hr>
+				<section id="wwm">
+					<WorkWithMe />
 				</section>
 
-				<section class="cards-container">
-					<article class="card">
-						<header>
-							<h3>
-								Web <br></br>Designer
-							</h3>
-						</header>
-						<hr class="divider" />
-						<p>
-							Pronto para o seu negócio! <br></br>Landing Pages, Ecommerces e
-							etc..
-						</p>
-					</article>
-
-					<article class="card large">
-						<header>
-							<h3>
-								Web <br></br>Developer
-							</h3>
-						</header>
-						<hr class="divider" />
-						<p>Sites, plataformas e aplicações para internet.</p>
-					</article>
-
-					<article class="card">
-						<header>
-							<h3>Mobile Developer</h3>
-						</header>
-						<hr class="divider" />
-						<p>
-							Você pode ter seu negócio na palma da sua mão com um app mobile!
-						</p>
-					</article>
-				</section> */}
-
-				<section className="porque">
+				{/* <section className="porque">
 					<h1>
 						Porque <span>trabalhar comigo?</span>
 					</h1>
@@ -119,7 +76,7 @@ function App() {
 						Full Stack te ajudo a colocar seu negócio em outro patamar. Vamos
 						trabalhar juntos!
 					</p>
-				</section>
+				</section> 
 				<section className="icons-container">
 					<article class="icons-work">
 						<header>
@@ -153,7 +110,7 @@ function App() {
 							<br></br>feliz
 						</p>
 					</article>
-				</section>
+				</section>*/}
 
 				<section className="work" id="projects">
 					<h1>

@@ -15,7 +15,7 @@ export default function Services() {
 				<hr color="#E1B208"></hr>
 				<hr color="#E1B208"></hr>
 			</section>
-			<div className="flex flex-col justify-center items-center md:flex-row gap-4 mt-6 border-red-500">
+			<div className="flex flex-col justify-center items-center md:flex-row gap-4 mt-1 border-red-500">
 				<div class="max-w-xs md:max-w-md rounded overflow-hidden shadow-lg bg-gray-800">
 					<div class="px-6 py-4">
 						<div class="font-bold text-xl mb-2 text-white text-center">
