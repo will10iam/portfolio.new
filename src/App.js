@@ -63,64 +63,7 @@ function App() {
 					<WorkWithMe />
 				</section>
 
-				{/* <section className="porque">
-					<h1>
-						Porque <span>trabalhar comigo?</span>
-					</h1>
-					<p>
-						Além de visar sempre o lucro do cliente colocando na tela aquilo que
-						ele deseja, as aplicações que desenvolvo são responsivas com
-						qualquer aparelho e leves para acessar de qualquer lugar!<br></br>
-						<br></br>
-						Com formações em Administração de Empresas e Desenvolvimento Web
-						Full Stack te ajudo a colocar seu negócio em outro patamar. Vamos
-						trabalhar juntos!
-					</p>
-				</section> 
-				<section className="icons-container">
-					<article class="icons-work">
-						<header>
-							<img src={exp} alt="" />
-							<h3>1+</h3>
-						</header>
-						<p>
-							<span>anos de</span>
-							<br></br>experiência
-						</p>
-					</article>
-
-					<article class="icons-work">
-						<header>
-							<img src={project} alt="" />
-							<h3>8+</h3>
-						</header>
-						<p>
-							<span>projetos</span>
-							<br></br>concluídos
-						</p>
-					</article>
-
-					<article class="icons-work">
-						<header>
-							<img src={heart} alt="" />
-							<h3>6+</h3>
-						</header>
-						<p>
-							<span>clientes</span>
-							<br></br>feliz
-						</p>
-					</article>
-				</section>*/}
-
-				<section className="work" id="projects">
-					<h1>
-						Meus <span>últimos projetos</span>
-					</h1>
-					<hr color="#E1B208" className="hr-1"></hr>
-					<hr color="#E1B208" className="hr-2"></hr>
-				</section>
-
-				<section>
+				<section id="projects">
 					<Project />
 				</section>
 
