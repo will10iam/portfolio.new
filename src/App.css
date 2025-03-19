@@ -405,7 +405,7 @@
 	transform: scale(1.05);
 }
 
-/* Layout responsivo */
+/* Layout responsivo
 @media (max-width: 768px) {
 	.cards-container {
 		flex-direction: column;
@@ -414,10 +414,10 @@
 
 	.card {
 		width: 90%;
-		/* Cards ocupam quase toda a largura */
+		/* Cards ocupam quase toda a largura 
 	}
 
 	.card.large {
 		width: 95%;
 	}
-}
+}*/
