@@ -6,13 +6,6 @@ import "./App.css";
 import resume from "./Assets/WILLIAM_BERBET4.pdf";
 import Project from "./Components/Project/project";
 import Footer from "./Components/Footer/footer";
-/* import {
-	FaLinkedin,
-	FaInstagramSquare,
-	FaWhatsappSquare,
-	FaGithubSquare,
-} from "react-icons/fa";
-import { AiFillTikTok } from "react-icons/ai"; */
 import Services from "./Components/MyServices/services";
 import WorkWithMe from "./Components/WorkWithMe/wwm";
 import Contact from "./Components/Contact/contact";

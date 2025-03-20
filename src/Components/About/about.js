@@ -23,19 +23,19 @@ export default function About() {
 	}
 
 	return (
-		<section className="flex flex-col items-center text-center bg-black text-white px-6 py-12 md:text-left md:px-20 md:py-16">
+		<section className="flex flex-col items-center text-center bg-black text-white px-6 py-12 md:flex md:flex-row-reverse md:justify-evenly md:items-center md:h-screen">
 			{/* Imagem */}
-			<div className="relative w-48 h-48 md:w-64 md:h-64 overflow-hidden rounded-full items-center">
+			<div>
 				<img
 					src={perfil}
 					alt="Foto Perfil William Berbet"
-					className="w-full h-full object-cover"
+					className="w-72 h-72 rounded-full"
 				/>
 			</div>
 
-			<div className="max-w-lg">
-				<h2 className="text-3xl font-semibold mt-4">
-					QUEM <span className="text-yellow-500 font-normal">SOU EU?</span>
+			<div className="max-w-3xl md:text-left">
+				<h2 className="md:text-6xl text-3xl mt-4 font-light">
+					QUEM <span className="text-yellow-500 font-bold">SOU EU?</span>
 				</h2>
 				<p className="mt-4">Amante de frango frito, música e muai thay!</p>
 				<p className="mt-4">
@@ -50,7 +50,7 @@ export default function About() {
 					Além disso estou me especializando em desenvolvimento em aplicativos
 					mobile (para celular).
 				</p>
-				<div className="flex flex-col justify-center items-center md:flex-row gap-4 mt-6">
+				<div className="flex flex-col justify-start items-center md:flex-row gap-4 mt-6">
 					<button
 						className="bg-gray-800 text-white px-12 py-2 text-center rounded-lg shadow-md hover:bg-gray-700 transition"
 						onClick={handleDownload}
@@ -58,9 +58,13 @@ export default function About() {
 					>
 						<strong>Download</strong> CV
 					</button>
-					<button className="bg-yellow-400 text-black px-6 py-2 rounded-lg shadow-md hover:bg-yellow-500 transition">
+					<a
+						href="https://wa.me/5519996602839"
+						className="bg-yellow-400 text-black px-6 py-2 rounded-lg shadow-md hover:bg-yellow-500 hover:text-black hover:no-underline transition"
+						target="_blank rel=noopener noreferrer"
+					>
 						<strong>Me chama</strong> no Whats
-					</button>
+					</a>
 				</div>
 			</div>
 		</section>
