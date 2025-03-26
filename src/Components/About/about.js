@@ -23,8 +23,7 @@ export default function About() {
 	}
 
 	return (
-		<section className="flex flex-col items-center text-center bg-black text-white px-6 py-12 md:flex md:flex-row-reverse md:justify-evenly md:items-center md:h-screen">
-			{/* Imagem */}
+		<section className="flex flex-col items-center text-center bg-black text-white py-12 px-6 md:flex md:flex-row md:items-center md:justify-around md:px-20 md:py-6 md:h-screen">
 			<div>
 				<img
 					src={perfil}
@@ -33,15 +32,15 @@ export default function About() {
 				/>
 			</div>
 
-			<div className="max-w-3xl md:text-left">
+			<div className="md:text-right">
 				<h2 className="md:text-6xl text-3xl mt-4 font-light">
 					QUEM <span className="text-yellow-500 font-bold">SOU EU?</span>
 				</h2>
 				<p className="mt-4">Amante de frango frito, música e muai thay!</p>
 				<p className="mt-4">
-					Eu crio sites que são responsivos, rápidos e fáceis de usar. Sites
-					como Landing Pages, Páginas de Vendas e Agradecimento, Blogs, Lojas
-					Virtuais & Portfólios estão entre os meus projetos.
+					Eu crio sites que são responsivos, rápidos e fáceis de usar. <br></br>
+					Sites como Landing Pages, Páginas de Vendas e Agradecimento, Blogs,
+					Lojas Virtuais & Portfólios <br></br> estão entre os meus projetos.
 				</p>
 				<p className="mt-4">
 					Desenvolvo aplicações para web com HTML, CSS, JS, REACT & TYPESCRIPT.
@@ -50,7 +49,7 @@ export default function About() {
 					Além disso estou me especializando em desenvolvimento em aplicativos
 					mobile (para celular).
 				</p>
-				<div className="flex flex-col justify-start items-center md:flex-row gap-4 mt-6">
+				<div className="flex flex-col justify-end items-center md:flex-row gap-4 mt-8">
 					<button
 						className="bg-gray-800 text-white px-12 py-2 text-center rounded-lg shadow-md hover:bg-gray-700 transition"
 						onClick={handleDownload}
