@@ -4,7 +4,7 @@ import Header from "./Components/Header/header";
 import About from "./Components/About/about";
 import "./App.css";
 import resume from "./Assets/WILLIAM_BERBET4.pdf";
-import Project from "./Components/Project/project";
+import Projects from "./Components/MyProjects/project";
 import Footer from "./Components/Footer/footer";
 import Services from "./Components/MyServices/services";
 import WorkWithMe from "./Components/WorkWithMe/wwm";
@@ -54,7 +54,7 @@ function App() {
 				</section>
 
 				<section id="projects">
-					<Project />
+					<Projects />
 				</section>
 
 				<section id="contact">

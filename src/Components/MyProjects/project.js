@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import projects from "../../projectsdb.json";
 import "./project.css";
 
-export default function Project() {
+export default function MyProjects() {
 	const [selectedProject, setSelectedProject] = useState(null); // Estado para o projeto selecionado
 	const [isModalOpen, setIsModalOpen] = useState(false); // Estado para abrir/fechar modal
 
@@ -17,9 +17,8 @@ export default function Project() {
 	}
 	return (
 		<section className="flex flex-col items-center text-center px-6 py-16 md:text-right md:px-20 md:py-16">
-			<h1 className="text-white font-bold text-3xl">
-				MEUS{" "}
-				<span className="font-normal text-yellow-500">ÚLTIMOS PROJETOS</span>
+			<h1 className="text-white md:text-6xl text-3xl mt-4 font-light">
+				MEUS <span className="font-bold text-yellow-500">ÚLTIMOS PROJETOS</span>
 			</h1>
 			<div className="py-16 md:grid md:grid-cols-4 gap-2">
 				{projects.map((project) => (

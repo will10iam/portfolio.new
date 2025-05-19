@@ -3,7 +3,7 @@ import React from "react";
 export default function Services() {
 	return (
 		<>
-			<section className="flex flex-col items-center text-center px-6 py-12 md:flex md:items-start md:px-20 md:py-6 md:h-screen">
+			<section className="flex flex-col items-center text-center px-6 py-12 md:flex md:items-start md:px-20 md:py-20">
 				<div>
 					<h1 className=" text-white font-light text-3xl md:text-6xl">
 						O QUE <span className="font-bold text-yellow-500  ">EU FAÇO?</span>
@@ -11,7 +11,7 @@ export default function Services() {
 				</div>
 
 				<div className=" mt-4 md:flex md:flex-row md:justify-between md:w-full md:gap-4">
-					<p className="mt-4 text-white md:text-left md:w-3/5">
+					<p className="mt-4 text-white md:text-left md:w-3/5 pb-4">
 						Se você tem um negócio e quer de alguma forma ser encontrado na
 						internet, é nisso que eu posso te ajudar. <br></br>
 						Eu garanto a sua presença na internet! <br></br>
@@ -20,7 +20,7 @@ export default function Services() {
 						Eu desenvolvo soluções para o seu negócio, seja ele pequeno ou
 						grande.
 					</p>
-					<div className="bg-gray-700 p-4 rounded-lg shadow-md mt-4">
+					<div className="bg-gray-700 p-4 rounded-lg shadow-md md:-mt-20">
 						<p className="text-white text-2xl font-bold md:text-xl">
 							Desenvolvimento para Internet
 						</p>
@@ -30,7 +30,6 @@ export default function Services() {
 							<li>Sites de Página Única</li>
 							<li>Sites Institucionais Completos</li>
 							<li>Ecommerces.</li>
-							online!
 						</ul>
 						<p className="text-white font-medium mb-4">
 							Tudo pronto para o seu negócio
